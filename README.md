@@ -6,4 +6,4 @@ It's my first Full-Stack Project. I've created this Web Application with:<br />
 <pre>Other dependencies:<br />
       node-sass, md5, mime-types, moment, react-avator, react-awesome-modal, react-color, react-router-dom, react-transition-group, uuid</pre>
 
-<a href="https://love-chat-72fed.firebaseapp.com/">Check DEMO</a>
+<a href="https://love-chat-72fed.firebaseapp.com/" target="_blank">Check DEMO</a>
