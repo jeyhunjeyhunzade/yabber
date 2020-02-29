@@ -1,0 +1,133 @@
+.messages-container
+    height: 70vh !important
+
+.messages
+    height: 56vh;
+    overflow-y: scroll;
+
+.messages-form
+    position: fixed !important;
+    width: 51vw
+    left: 0;
+    right: 2em;
+    margin-left: 315px !important;
+    bottom: 1em;
+
+.message-header--title
+    padding-right: 20px
+    margin-bottom: 0
+
+.message-header--users
+    margin-bottom: -10px !important
+
+.myMessage
+    border-left: 2px solid #fe5196;
+    padding-left: 8px
+
+.message-image
+    padding: 1em
+
+
+.progressBar
+    margin: 0.3em 0 0 0 !important
+
+.typing-container
+    display: flex
+    align-items: center
+    margin-bottom: 0.2em
+
+.user-typing
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 3px;
+
+.typing
+    width: 5em;
+    height: 2em;
+    position: relative
+    padding: 10px
+    margin-left: 5px
+    border-radius: 20px
+
+.typing-dot
+    float: left
+    width: 8px
+    height: 8px
+    margin: 0 4px
+    background: #380af1
+    border-radius: 50%
+    opacity: 0
+    animation: isTyping 1s infinite
+
+    &:nth-child(1)
+        animation-delay: 0s
+
+    &:nth-child(2)
+        animation-delay: 0.2s
+
+    &:nth-child(3)
+        animation-delay: 0.4s
+    
+@keyframes isTyping
+    0%
+        opacity: 0
+    50%
+        opacity: 0.8
+    100%
+        opacity: 0
+
+
+.emojipicker
+    position: absolute
+    outline: none !important
+
+.skeleton
+    position: relative
+    overflow: hidden
+    height: 40px
+    margin-bottom: 10px
+
+.skeleton::after
+    display: block
+    position: absolute
+    width: 50%
+    height: 100%
+    top: 0
+    left: 0
+    content: ""
+    animation: sweep 2s infinite
+    background-image: linear-gradient(to left, transparent, rgba(255, 255, 255, 0.4), transparent)
+
+@keyframes sweep
+    0%
+        transform: translasteX(-100%)
+    50%
+        transform: translasteX(150%)
+    100%
+        transform: translasteX(-100%)
+        
+
+.skeleton-avatar
+    width: 35px
+    height: 35px
+    border-radius: 3px
+    background-color: rgba(58, 57, 57, 0.3)
+
+.skeleton-author
+    position: absolute
+    right: 0
+    bottom: 30px
+    left: 40px
+    width: 120px
+    height: 10px
+    border-radius: 3px
+    background-color: rgba(58, 57, 57, 0.3)
+    
+.skeleton-details
+    position: absolute
+    right: 20px
+    bottom: 5px
+    left: 40px
+    height: 20px
+    border-radius: 3px
+    background-color: rgba(58, 57, 57, 0.3)
