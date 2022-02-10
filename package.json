@@ -11,7 +11,7 @@
     "md5": "^2.2.1",
     "mime-types": "^2.1.25",
     "moment": "^2.24.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "react": "^16.12.0",
     "react-avatar-editor": "^12.0.0-beta.0",
     "react-awesome-modal": "^2.0.5",
