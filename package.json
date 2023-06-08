@@ -10,7 +10,7 @@
     "firebase": "^7.6.1",
     "md5": "^2.2.1",
     "mime-types": "^2.1.25",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-avatar-editor": "^12.0.0-beta.0",
